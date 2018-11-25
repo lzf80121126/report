@@ -1,0 +1,62 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1542877678710" stop="1542877678729">
+  <name>test01</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1542877678710" status="passed" stop="1542877678714">
+      <name>Test01.test_loging</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6504-MainThread"/>
+        <label name="host" value="MS-20180906QJYH"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1542877678714" status="passed" stop="1542877678714">
+          <name>执行登录操作</name>
+          <title>执行登录操作</title>
+          <attachments>
+            <attachment source="d3d2c919-aedb-4435-8618-e061e7b64213-attachment.txt" title="" type="text/plain"/>
+            <attachment source="331725a4-5bf1-4c95-9a1a-4df50b25f680-attachment.txt" title="描述：" type="text/plain"/>
+            <attachment source="3a1b4be5-c11f-4948-a261-45aecc090ca6-attachment.txt" title="描述：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1542877678720" status="passed" stop="1542877678723">
+      <name>Test01.test_logout</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="6504-MainThread"/>
+        <label name="host" value="MS-20180906QJYH"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1542877678721" status="passed" stop="1542877678723">
+          <name>执行退出操作</name>
+          <title>执行退出操作</title>
+          <attachments>
+            <attachment source="3e40809e-ba46-45af-a1fe-720856e47b1c-attachment.png" title="失败原因请看图：" type="image/png"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1542877678726" status="passed" stop="1542877678729">
+      <name>Test01.test_03</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="trivial"/>
+        <label name="thread" value="6504-MainThread"/>
+        <label name="host" value="MS-20180906QJYH"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
